@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.bleexample.MainActivity" >
+
+    <item
+        android:id="@+id/menu_refresh"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    
+    <item android:id="@+id/menu_scan"
+          android:title="@string/menu_scan"
+          android:orderInCategory="100"
+          android:showAsAction="ifRoom|withText"/>
+    <item android:id="@+id/menu_stop"
+          android:title="@string/menu_stop"
+          android:orderInCategory="101"
+          android:showAsAction="ifRoom|withText"/>
+
+</menu>
